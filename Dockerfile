@@ -9,4 +9,4 @@ WORKDIR /workflow
 
 COPY . /workflow
 
-CMD ["samtools","--version"]
+RUN chmod +x /workflow/run.sh

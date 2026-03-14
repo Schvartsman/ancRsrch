@@ -1,0 +1,18 @@
+name: glimplse_build_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gxx_linux-64
+  - make
+  - cmake
+  - bcftools
+  - samtools
+  - htslib
+  - boost
+  - zlib
+  - bzip2
+  - xz
+  - curl
+  - wget
+  - git
